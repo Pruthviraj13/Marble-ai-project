@@ -1,0 +1,97 @@
+
+
+
+.card1 {
+	display: inline-block;
+	color: hwb(90 90% 5%);
+	background: #0cdbf2;
+	padding: 5px 10px;
+	border-radius: 10px;
+	font-size: .7em;
+}
+
+.card-header1{
+    /* font-size: 24px;
+    font-weight: bold; */
+    margin-bottom: 10px;
+    color: #141412;
+    background-color: whitesmoke;
+   border-radius: 8px;
+    font-size: 20px;
+  font-weight: bold;
+  font-family: "Times New Roman", serif;
+  margin-bottom: 1px;
+  
+  /* color: #fff;
+  background-color: #333; */
+  padding: 10px;
+  }
+
+  .card-body1{
+    margin-bottom: 10px;
+    color: #141412;
+    background-color:white;
+   border-radius: 8px;
+    font-size: 20px;
+  /* font-weight: bold; */
+  font-family: "Times New Roman", serif;
+  margin-bottom: 10px;
+  
+  /* color: #fff;
+  background-color: #333; */
+  padding: 10px;
+  }
+  
+.btngo {
+	width: fit-content;
+	height: fit-content;
+	margin-top: 10px;
+	
+	border-radius: 4px;
+	
+}
+
+.btngo{
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	font-size: 11px;
+	color: #111;
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 1px solid #aaa;
+	font-weight: bold;
+	background-color: #D4E4F7;
+	
+}
+
+.btngo:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -10px;
+	width: 0%;
+	background: #111;
+	height: 100%;
+	z-index: -1;
+	transition: width 0.3s ease-in-out;
+	transform: skew(-25deg);
+	transform-origin: right;
+}
+
+.btngo:hover:after {
+	width: 150%;
+	left: -10px;
+	transform-origin: left;
+	
+}
+
+.btngo:hover {
+	color: #fff;
+	transition: all 0.5s ease;
+}
+
+
+
+
+  

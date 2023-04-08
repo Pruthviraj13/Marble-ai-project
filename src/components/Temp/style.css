@@ -1,0 +1,14 @@
+.left{
+    width:300px;
+    max-height: 100vh;
+    overflow-y:scroll;
+}
+
+.wrapper {
+    width: 300px;
+    background-color: #0edc18;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-bottom: 6px;
+  }
